@@ -35,13 +35,7 @@ public class ReplaceVowelsWithStarBasedOnCount {
 	
 	public static boolean isVowel(char ch)
 	{
-		if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' || ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U') {
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+		return "aeiouAEIOU".indexOf(ch)!=-1;
 	}
 
 }
