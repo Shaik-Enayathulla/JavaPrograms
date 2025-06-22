@@ -22,7 +22,7 @@ public class ConvertHashMappToList {
 		
 		System.out.println(map);
 		System.out.println(map1);
-		//System.out.println(map.get("Pink"));
+		System.out.println(map.get("Pink"));
 		map1.putAll(map);
 		//System.out.println(map);
 		System.out.println(map1);
