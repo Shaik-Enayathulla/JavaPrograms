@@ -12,9 +12,9 @@ public class SortLiatAlphabetically {
 		{
 			for(int j=i+1;j<ls.size();j++)
 			{
-				int num1 = (int) ls.get(i);
-				int num2 = (int) ls.get(j);
-				if(num1>num2)
+				//int num1 = (int) ls.get(i);
+				//int num2 = (int) ls.get(j);
+				if(ls.get(i)>ls.get(j))
 				{
 					char temp = ls.get(i);
 					ls.set(i, ls.get(j));

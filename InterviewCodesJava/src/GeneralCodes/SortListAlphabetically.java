@@ -9,7 +9,7 @@ public class SortListAlphabetically {
 	
 	public static List<Character> sort(List<Character> Inputlist)
 	{
-		/*int n= Inputlist.size();
+		int n= Inputlist.size();
 		for(int i=0; i<n;i++)
 		{
 			//int ascii = (int) Inputlist.get(i);
@@ -23,8 +23,8 @@ public class SortListAlphabetically {
 					Inputlist.set(j, temp);
 				}
 			}
-		}*/
-		Collections.sort(Inputlist);
+		}
+		//Collections.sort(Inputlist);
 		return Inputlist;
 		
 	}
@@ -39,9 +39,9 @@ public class SortListAlphabetically {
 		{
 			int inx = size;
 			System.out.println("Enter the character: ");
-			String s = sc.next();
-			char[] ch = s.toCharArray();
-			ls.add(ch[0]);
+			char s = sc.next().charAt(0);
+			//char[] ch = s.toCharArray();
+			ls.add(s);
 			size--;
 		}
 		System.out.println(ls);

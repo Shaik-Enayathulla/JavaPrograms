@@ -3,7 +3,7 @@ package GeneralCodes;
 public class SwapOfFirstAndLastDigits {
 
 	public static void main(String[] args) {
-		int num = 87693;
+		int num = 876935;
 		System.out.println(num);
 		int firstDigit = num;
 		int lastDigit=num%10;
